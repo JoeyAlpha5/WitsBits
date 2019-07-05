@@ -2,11 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
         <link rel="icon" href="images/icon.png"/>
         <title>Wits Biomedical Informatics - Welcome</title>
+        <script type="text/javascript" src="js/Jquery.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </head>
-    <body>
+    <body onload="Slider()">
 
     <div id="Background">
         <div></div>
@@ -28,11 +30,11 @@
 
         <div class="wrapper">
             <div class="slider">
-                    <p>Welcome to the</p>
-                    <h3>Wits Division of</h3>
-                    <h1>Biomedical Informatics</h1>
+                    <p id="miniText">Welcome to the</p>
+                    <h3 id="subMini">Wits Division of</h3>
+                    <h1 id="boldTitle">Biomedical Informatics</h1>
                     <hr><br/>
-                    <p>
+                    <p id="mainText">
                         A multifaceted team of doctors, scientists,<br/>
                         developers and researchers dedicated to<br/>
                         improving health care through technology and<br/>
@@ -42,9 +44,9 @@
                     <button class="researchBtn">Research</button>
 
                     <div class="countCircles">
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div id='circle1'></div>
+                            <div id='circle2'></div>
+                            <div id='circle3'></div>
                     </div>
             </div>
 

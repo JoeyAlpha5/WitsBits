@@ -149,11 +149,15 @@ button {
 }
 
 .countCircles div {
-  width: 10px;
-  height: 10px;
-  background: #5C737F;
+  width: 5px;
+  height: 5px;
+  border: 0.5px solid #5C737F;
   margin-left: 5px;
   border-radius: 10px;
+}
+
+#circle1 {
+  background: #5C737F;
 }
 
 #contactBlock {

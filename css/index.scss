@@ -156,12 +156,20 @@ button {
     margin-top: 40px;
 
     div{
-        width: 10px;
-        height: 10px;
-        background:$grey;
+        width: 5px;
+        height: 5px;
+        border:0.5px solid $grey;
         margin-left: 5px;
         border-radius: 10px;
+
+
     }
+
+
+}
+
+#circle1{
+    background: $grey;
 }
 
 #contactBlock{
