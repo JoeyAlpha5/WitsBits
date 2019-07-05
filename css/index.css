@@ -39,6 +39,10 @@ h3 {
   float: right;
 }
 
+#Background .blueMenu {
+  height: 90px !important;
+}
+
 #Content {
   width: 100%;
   height: 100%;
@@ -86,6 +90,10 @@ h3 {
 
 #menu li:hover {
   color: #12C97A;
+}
+
+#menu .current {
+  color: #12C97A !important;
 }
 
 .slider {
@@ -165,5 +173,57 @@ button {
   height: inherit;
   float: right;
   background: #063C56;
+}
+
+#contactBlock div h3 {
+  font-size: 20px;
+  color: #12C97A;
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+#contactBlock div p {
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+#contactBlock form {
+  float: left;
+  text-align: left;
+  margin-left: 25px;
+}
+
+#contactBlock form input {
+  height: 40px;
+  width: 318px;
+  border: 0px;
+  border-bottom: 1px solid #063C56;
+  margin-bottom: 26px;
+  outline: none;
+  padding-left: 5px;
+  color: #063C56;
+}
+
+#contactBlock form textarea {
+  width: 318px;
+  color: #063C56;
+  padding-left: 5px;
+  border: 0px;
+  border-bottom: 1px solid #063C56;
+  outline: none;
+  height: 100px;
+}
+
+#contactBlock form button {
+  background: #063C56;
+}
+
+#contactBlock form p {
+  color: #063C56;
 }
 /*# sourceMappingURL=index.css.map */

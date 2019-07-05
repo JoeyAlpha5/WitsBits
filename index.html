@@ -17,10 +17,10 @@
             <div class="wrapper">
                 <img src="images/logo-horisontal.png" class="logo">
                 <ul id='menu'>
-                    <li>Home</li>
-                    <li>Clinical</li>
-                    <li>Research</li>
-                    <li>About</li>
+                    <li class='current'>Home</li>
+                    <li onclick='document.location = "clinical.html" '>Clinical</li>
+                    <li onclick='document.location = "research.html" '>Research</li>
+                    <li onclick='document.location = "about.html" '>About</li>
                     <li>Contact</li>
                 </ul>
             </div>
@@ -51,11 +51,37 @@
 
             <div id='contactBlock'>
                     <form>
-
+                        <p>Contact</p>
+                        <input type="text" name="fullName" placeholder="Full Name" required><br/>
+                        <input type="email" name="email" placeholder="Email Address" required><br/>
+                        <textarea name="message" placeholder="Message"  required></textarea><br/>
+                        <button>Submit</button>
                     </form>
 
                     <div>
-                        
+                        <h3>
+                            Address: 
+                        </h3>
+                        <p>
+                            The Mount, 9 Jubilee Rd,<br/>
+                            Parktown, Johannesburg, 2193
+                        </p>
+
+                        <h3>
+                           Hours: 
+                        </h3>
+                        <p>
+                            Mon - Fri: 8:00am - 4:30pm<br/>
+                            Sat & Sun:  Closed
+                        </p>
+
+                        <h3>
+                            Contact: 
+                        </h3>
+                        <p>
+                            (011) 717 6630
+                        </p>
+
                     </div>
             </div>
 
