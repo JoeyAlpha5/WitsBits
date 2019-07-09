@@ -27,7 +27,7 @@
                         <li onclick='document.location = "clinical.html" '>Clinical</li>
                         <li onclick='document.location = "research.html" '>Research</li>
                         <li onclick='document.location = "about.html" '>About</li>
-                        <li>Contact</li>
+                        <li onclick='document.location = "index.html#contact" '>Contact</li>
                     </ul>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                         improving health care through technology and<br/>
                         research.<br/>
                     </p>
-                    <button>More about us</button>
-                    <button class="researchBtn">Research</button><br/><br/>
+                    <button onclick='document.location = "about.html" '>More about us</button>
+                    <button class="researchBtn" onclick='document.location = "research.html" '>Research</button><br/><br/>
 
                     <div class="countCircles">
                             <div id='circle1'></div>
@@ -57,12 +57,12 @@
 
 
             <div id='contactBlock'>
-                    <form>
-                        <p>Contact</p>
+                    <form action="https://formspree.io/chjalome@gmail.com" method="POST">
+                        <a name="contact"><p>Contact</p></a>
                         <input type="text" name="fullName" placeholder="Full Name" required><br/>
                         <input type="email" name="email" placeholder="Email Address" required><br/>
                         <textarea name="message" placeholder="Message"  required></textarea><br/>
-                        <button>Submit</button>
+                        <button type="submit">Submit</button>
                     </form>
 
                     <div>
@@ -71,7 +71,8 @@
                         </h3>
                         <p>
                             The Mount, 9 Jubilee Rd,<br/>
-                            Parktown, Johannesburg, 2193
+                            Parktown, Johannesburg, 2193<br/>
+                            <a href="https://goo.gl/maps/wF39qry3PKhZNF2P6" style="color: white;" target="_blank">View map</a>
                         </p>
 
                         <h3>

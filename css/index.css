@@ -243,8 +243,6 @@ button {
 #Research {
   text-align: left;
   margin-left: 15px;
-  position: relative;
-  z-index: -1;
 }
 
 #Research h3 {
