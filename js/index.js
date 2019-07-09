@@ -50,3 +50,4 @@ function nextSlide() {
         slideCount = 0;
     }
 }
+

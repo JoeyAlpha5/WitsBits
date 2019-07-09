@@ -7,6 +7,7 @@
         <title>Wits Biomedical Informatics - Welcome</title>
         <script type="text/javascript" src="js/Jquery.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <meta rel="theme-color" content="#063C56"/>
     </head>
     <body onload="Slider()">
 
@@ -18,13 +19,16 @@
         <div class="topBar"> 
             <div class="wrapper">
                 <img src="images/logo-horisontal.png" class="logo">
-                <ul id='menu'>
-                    <li class='current'>Home</li>
-                    <li onclick='document.location = "clinical.html" '>Clinical</li>
-                    <li onclick='document.location = "research.html" '>Research</li>
-                    <li onclick='document.location = "about.html" '>About</li>
-                    <li>Contact</li>
-                </ul>
+                <div id="dropdown">
+                    <button id="mobileMenu">Menu</button>
+                    <ul id='menu'>
+                        <li class='current'>Home</li>
+                        <li onclick='document.location = "clinical.html" '>Clinical</li>
+                        <li onclick='document.location = "research.html" '>Research</li>
+                        <li onclick='document.location = "about.html" '>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -41,7 +45,7 @@
                         research.<br/>
                     </p>
                     <button>More about us</button>
-                    <button class="researchBtn">Research</button>
+                    <button class="researchBtn">Research</button><br/><br/>
 
                     <div class="countCircles">
                             <div id='circle1'></div>
